@@ -10,8 +10,8 @@ const authOption: NextAuthOptions = {
     },
     providers: [
       GoogleProvider({
-        clientId: process.env.GOOGLE_CLIENT_ID || '103981743912-5ii0l4953l53kjd2o6ii1m4vauf36n77.apps.googleusercontent.com',
-        clientSecret: process.env.GOOGLE_CLIENT_SECRET || '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'
+        clientId: process.env.GOOGLE_CLIENT_ID || '',
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET || ''
       })
     ]
 }
